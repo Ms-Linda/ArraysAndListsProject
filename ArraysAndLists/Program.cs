@@ -63,12 +63,13 @@ namespace ArraysAndLists
             Console.WriteLine($"Even Steven");
             foreach (var evenNum in evens)
             {
-                Console.WriteLine($"{evenNum} is even Steven");
+                Console.WriteLine($"   {evenNum}");
             }
+            Console.WriteLine($"");
             Console.WriteLine($"Odd Pod");
             foreach (var oddNum in odds)
             {
-                Console.WriteLine($"{oddNum} is odd pod");
+                Console.WriteLine($"   {oddNum}");
             }
         }
     }
