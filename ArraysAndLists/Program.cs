@@ -7,7 +7,7 @@ namespace ArraysAndLists
     {
         static void Main(string[] args)
         {
-            //TODO:
+            //DONE:
 
             // Create an int Array and populate numbers 1-10
             var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -26,7 +26,8 @@ namespace ArraysAndLists
              * Then add those numbers to either the evens List
              * or the odds List
              */
-            
+        
+
             //for(int i = 0; i < numbers.Length; i++)
             //{
             //    if(numbers[i] % 2 == 0)
@@ -59,11 +60,12 @@ namespace ArraysAndLists
              * Try to be creative in your display
              */
 
+            Console.WriteLine($"Even Steven");
             foreach (var evenNum in evens)
             {
                 Console.WriteLine($"{evenNum} is even Steven");
             }
-
+            Console.WriteLine($"Odd Pod");
             foreach (var oddNum in odds)
             {
                 Console.WriteLine($"{oddNum} is odd pod");
